@@ -10,7 +10,7 @@ module APNS
   # openssl pkcs12 -in mycert.p12 -out client-cert.pem -nodes -clcerts
   @pem = '/var/www/pem/cert.pem' # this should be the path of the pem file not the contentes
   # @pass = '4nac0nda'
-  @pass = ''
+  @pass = 'notsoHealthy0ptions'
 
   @persistent = false
   @mutex = Mutex.new
